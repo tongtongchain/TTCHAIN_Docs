@@ -306,7 +306,7 @@ Request:
     }
 Request method: list_event_handler
 
-Request parameter: contract idï¼Œevent type
+Request parameter: contract id, event type
 
 Response Result:
 
@@ -344,7 +344,7 @@ Request:
     }
 Request method: add_event_handler
 
-Request parameter: contract idï¼Œevent typeï¼Œscript, sequence location of triggering script 
+Request parameter: contract id, event type,script, sequence location of triggering script 
 
 
 Response Result:
@@ -380,7 +380,7 @@ Request:
 
 Request method: delete_event_handler
 
-Request parameter: contract id,event typeï¼Œscript id
+Request parameter: contract id,event type, script id
 
 Response Result:
 
@@ -489,7 +489,7 @@ Response Result:
             {"CON5KWRaxfL7iF7CCnrYviUSKkXKr7Um7QGc,testevent"}
         ]
     }
-Response parameters: element is an array in form of {contract idï¼Œevent type}
+Response parameters: element is an array in form of {contract id, event type}
 
 
 
