@@ -2999,7 +2999,7 @@ Return value:
 
 transactionID: Transaction ID
 
-Exception: reserved fieldï¼ˆabnormal tradingï¼‰
+Exception: reserved field, abnormal trading
 
 
 
