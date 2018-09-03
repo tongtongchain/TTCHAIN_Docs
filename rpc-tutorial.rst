@@ -18,26 +18,26 @@ How to enable the RPC server listener
 
 ::
 
-    Achain-c --rpcuser RPCusername --rpcpassword RPCpassword --rpcport port --server --data-dir dataDirectory
+    TTCHAIN --rpcuser RPCusername --rpcpassword RPCpassword --rpcport port --server --data-dir dataDirectory
     
 
 Example : 
 ::
 
-    Achain-c --rpcuser admin --rpcpassword 123456 --rpcport 10086 --server --data-dir chain_data
+    TTCHAIN --rpcuser admin --rpcpassword 123456 --rpcport 10086 --server --data-dir chain_data
     
 
 - Start Http-JsonRpc Mode
 
 ::
 
-    Achain-c --rpcuser RPCusername --rpcpassword RPCpassword --httpdendpoint ListenEndpoint --server --data-dir dataDirectory
+    TTCHAIN --rpcuser RPCusername --rpcpassword RPCpassword --httpdendpoint ListenEndpoint --server --data-dir dataDirectory
     
 
 Example : 
 ::
 
-    Achain-c --rpcuser admin --rpcpassword 123456 --httpdendpoint 127.0.0.1:8080 --server --data-dir chain_data
+    TTCHAIN --rpcuser admin --rpcpassword 123456 --httpdendpoint 127.0.0.1:8080 --server --data-dir chain_data
     
 
 
